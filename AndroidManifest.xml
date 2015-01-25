@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.accgyro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.DeviceDefault.DialogWhenLarge.NoActionBar">
+        <activity
+            android:name="com.example.accgyro.Accelerometer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.accgyro.SavedAccData"
+            android:label="@string/title_activity_saved_acc_data" >
+        </activity>
+        <activity
+            android:name="com.example.accgyro.Gyroscope"
+            android:label="@string/title_activity_gyroscope" >
+        </activity>
+        <activity
+            android:name="com.example.accgyro.AccSql"
+            android:label="@string/title_activity_acc_sql" >
+        </activity>
+        <activity
+            android:name="com.example.accgyro.Saving"
+            android:label="@string/title_activity_saving" >
+        </activity>
+        <activity
+            android:name="com.example.accgyro.RetrieveReading"
+            android:label="@string/title_activity_retrive_readinngs" >
+        </activity>
+    </application>
+
+</manifest>

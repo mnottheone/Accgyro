@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.accgyro.SavedAccData"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/txtaccy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Accelerometer Saved Data"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtaccz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtaccx"
+        android:layout_alignBottom="@+id/txtaccx"
+        android:layout_centerHorizontal="true"
+        android:text="Y" />
+
+    <ListView
+        android:id="@+id/listacc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtaccx"
+        android:layout_marginTop="24dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtaccx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtaccy"
+        android:layout_marginRight="49dp"
+        android:layout_marginTop="30dp"
+        android:layout_toLeftOf="@+id/txtaccy"
+        android:text="X" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtaccz"
+        android:layout_alignBottom="@+id/txtaccz"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="42dp"
+        android:text="Z" />
+
+</RelativeLayout>
+

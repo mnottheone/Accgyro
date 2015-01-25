@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight = "1"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15" >
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Accelerometer"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:typeface="serif"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" >
+            
+          </LinearLayout>  
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+             <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+
+                 <TextView
+                     android:id="@+id/txt1"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="30"
+                     android:text="X Value"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                      <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+                  
+                 <TextView
+                     android:id="@+id/txty"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="40"
+                     android:text="Values"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+                 
+                        <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="20" >
+                  </FrameLayout>
+                  
+        </LinearLayout>
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" >
+            
+          </LinearLayout> 
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+             <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+
+                 <TextView
+                     android:id="@+id/txt2"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="30"
+                     android:text="Y Value"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                      <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+                  
+                 <TextView
+                     android:id="@+id/txty"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="40"
+                     android:text="Values"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+                 
+                        <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="20" >
+                  </FrameLayout>
+                  
+        </LinearLayout>
+        
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" >
+            
+          </LinearLayout> 
+          
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+
+             <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+
+                 <TextView
+                     android:id="@+id/txt3"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="30"
+                     android:text="Z Value"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                      <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="10" >
+                  </FrameLayout>
+                  
+                 <TextView
+                     android:id="@+id/txtz"
+                     android:layout_width="0dp"
+                     android:layout_height="match_parent"
+                     android:layout_weight="40"
+                     android:text="Values"
+                     android:textAppearance="?android:attr/textAppearanceLarge" />
+                 
+                        <FrameLayout
+                 android:layout_width="0dp"
+                 android:layout_height="match_parent"
+                 android:layout_weight="20" >
+                  </FrameLayout>
+                  
+        </LinearLayout>
+        
+                 <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10" >
+            
+          </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="10">
+
+                     <Button
+                         android:id="@+id/btnsave"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="40"
+                         android:text="Save" />
+
+                     <FrameLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="20" >
+                     </FrameLayout>
+
+                     <Button
+                         android:id="@+id/btnlist"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="40"
+                         android:text="List" />
+
+                 </LinearLayout>
+                  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5" >
+            
+          </LinearLayout>
+              
+         <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="10">
+                     <FrameLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="30" >
+                     </FrameLayout>
+
+                     <Button
+                         android:id="@+id/btnlist"
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="40"
+                         android:text="List" />
+
+                     <FrameLayout
+                         android:layout_width="0dp"
+                         android:layout_height="match_parent"
+                         android:layout_weight="30" >
+                     </FrameLayout>
+
+                    
+
+                 </LinearLayout>
+           
+
+    </LinearLayout>
+
+</RelativeLayout>
